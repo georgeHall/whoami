@@ -59,7 +59,7 @@ spec:
 apiVersion: traefik.io/v1alpha1
 kind: IngressRoute
 metadata:
-  name: whoamiTls
+  name: whoami-tls
   namespace: whoami
 spec:
   entryPoints:
